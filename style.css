@@ -1,0 +1,363 @@
+body{
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+/* live link im copying */
+/* http://preview.themeforest.net/item/burger-unbounce-landing-page/full_screen_preview/33803993?_ga=2.59811246.286324796.1642163724-241677408.1642163724 */
+header{
+    background-size: cover;
+    height: 800px;
+    background-image: url(images/top-image.jpg);
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    padding: 1% 8%;
+}
+hr{
+    margin-top: 0px;
+}
+.menu-items{
+    display: flex;
+    margin-top: 1%;
+    padding-right: 20px;
+}
+.contact-info{
+    color: white;
+    margin: 10px 30px;
+    font-weight: 700;
+}
+.contact-btn a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    padding: 20px 60px;
+    display: inline-block;
+    border-radius: 35px;
+    background-color: tomato;
+}
+.nav-items{
+    display: flex;
+    justify-content: space-around;
+}
+.nav-items a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    display: inline-block;
+}
+.header-texts{
+    display: flex;
+    margin-top: 200px;
+    padding-top: 0px;
+    padding-left: 8%;
+}
+.header-texts img{
+    height: 591px;
+    margin-right: 100px;
+    margin-top: -150px;
+}
+.header-texts p{
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+}
+.header-texts h1{
+    font-size: 60px;
+    color: white;
+    margin-top: 0px;
+}
+.header-texts a{
+    text-decoration: none;
+    color: white;
+    background-color: tomato;
+    padding: 10px 30px;
+    border-radius: 30px;
+}
+.middle-text{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+}
+.middle-text p{
+    font-weight: 600;
+    font-size: 18px;
+}
+.middle-text h2{
+    font-size: 50px;
+    margin-top: 0px;
+}
+.top-cards{
+    display: flex;
+    justify-content: space-evenly;
+}
+.top-card{
+    padding-top: 30px;
+    margin:20px;
+    text-align: center;
+    height: 320px;
+    width: 350px;
+    border-radius: 30px;
+    box-shadow: 1px 1px 3px;
+}
+.card-info h3{
+    font-size: 30px;
+}
+.card-info p{
+    font-size: 20px;
+}
+.fa-braille{
+    font-size: 80px;
+    color: tomato;
+}
+
+/* important fact section  */
+.important-fact{
+    display: flex;
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding-top: 50px;
+    background-color: rgba(1, 39, 255, 0.63);
+}
+.important-img{
+    margin-left: 100px;
+}
+.important-texts{
+    width: 50%;
+    color: white;
+    margin-left: 65px;
+    padding-left: 40px;
+}
+.important-texts p{
+    font-size: 20px;
+    margin-bottom: 0px;
+    font-weight: 600;
+}
+
+.important-texts h1{
+    font-size: 60px;
+    margin: 0px 0px 20px 0px;
+}
+.important-texts a{
+    text-decoration: none;
+    display: block;
+    margin-bottom: 20px;
+    color: white;
+    font-weight: 600;
+}
+.start-btn{
+    padding: 12px 40px;
+    border: none;
+    background-color: tomato;
+    color: white;
+    font-size: large;
+    border-radius: 30px;
+}
+/* feature area  */
+.feature-area{
+    width: 100%;
+    display: flex;
+}
+.feature-texts{
+    width: 50%;
+    padding-left: 10%;
+
+}
+.feature-description h1{
+    font-size: 3em;
+}
+.feature-description p{
+    line-height: 2em;
+    font-size: 18px;
+}
+.feature-img{
+    padding: 50px 40px;
+}
+.feature-items{
+    display: flex;
+    margin-top: 20px;
+}
+.feature-item{
+    display: flex;
+}
+.item-logo{
+    font-size: 4em;
+    color: rgb(235, 58, 46);
+    padding-right: 10px;
+}
+/* center-video-player  */
+.center-video-player{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.center-img{
+    position: relative;
+}
+.center-img img{
+    border-radius: 25px;
+}
+.img-text{
+    width: 290px;
+    position: absolute;
+    top: 60px;
+    left: 60px;
+    color: white;
+}
+.img-text h1{
+    font-size: 3em;
+    margin-bottom: 0px;
+}
+.img-text p{
+    line-height: 2em;
+}
+.img-btn{
+    padding: 10px 40px;
+    background-color: orangered;
+    border: none;
+    color: white;
+    font-size: 20px;
+    border-radius: 30px;
+    margin-top: 30px;
+}
+.fa-play-circle{
+    font-size: 8em;
+    color: orangered;
+    position: absolute;
+    top: 130px;
+    left: 760px;
+    cursor: pointer;
+}
+/* pricing card section  */
+.pricing-card-area{
+    display: flex;
+    justify-content: space-around;
+}
+.card{
+    height: 700px;
+    width: 381px;
+    box-shadow: 0px 0px 5px black;
+    margin-bottom: 20px;
+}
+.card-img{ 
+    width: 150px;
+}
+.card-img img{
+    position: absolute;
+}
+.card-price{
+    position: relative;
+    top: 80px;
+    left: 120px;
+    display: inline;
+    color: white;
+
+}
+.card-description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 216px;
+}
+.card-description p{
+    font-size: 20px;
+    margin-top: 5px;
+}
+.card-description h1{
+    font-size: 47px;
+    margin: 10px
+}
+.card-btn{
+    padding: 15px 60px;
+    border-radius: 30px;
+    border: navajowhite;
+    color: white;
+    background-color: orangered;
+    font-size: 24px;
+}
+/* burger cards area  */
+.burger-cards{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px;
+}
+.burger-card{
+    width: 312px;
+    height: 500px;
+    box-shadow: 0px 0px 5px black;
+    margin-left: 20px;
+}
+.burger-card-img img{
+    width: 100%;
+}
+.burger-info{
+    padding: 0px 18px;
+}
+.burger-headline{
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.burger-details{
+    font-size: 23px;
+}
+/* contact area  */
+.contact-section{
+    width: 100%;
+    display: flex;
+}
+.contact-info{
+    width: 30%;
+    margin-left: 100px;
+}
+.contact-items{
+    display: flex;
+    margin-bottom: 30px;
+}
+.fa-map-marker-alt , .fa-envelope , .fa-phone-alt{
+    color: orangered;
+    font-size: 30px;
+    margin-right: 10px;
+}
+.contact-address{
+    color: rgb(128, 122, 122);
+}
+.contact-form input{
+    width: 300px;
+    padding: 10px;
+    font-size: 18px;
+    margin: 0px 0px 20px 0px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px;
+}
+textarea{
+    width: 640px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px;
+}
+.meassage-btn{
+    display: block;
+    margin: 30px 0px;
+    background-color: orangered;
+    border: none;
+    padding: 20px 40px;
+    color: white;
+    font-size: 18px;
+    border-radius: 30px;
+}
+footer{
+    height: 200px;
+    width: 100%;
+    background-color: orangered;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 24px;
+    margin-top: 100px;
+}
